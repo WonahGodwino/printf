@@ -1,0 +1,23 @@
+#include 'main.h'
+
+/**
+  * _printf: _printf print the number of character in string output
+  * @format: string to print number of characters
+  */
+
+  int _printf(const char * const format, ...)
+  {
+  	va_list args;
+	int i = o;
+	int n_string = 0;
+	va_start(args, format);
+
+	while (format[i] != '\0')
+	{
+		if (_putchar(format[i] != -1)
+			n_string++;
+			i++;
+	 }
+
+	 va_start(args);
+	 return (n_string);
